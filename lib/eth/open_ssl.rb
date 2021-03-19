@@ -9,8 +9,8 @@ module Eth
       ffi_lib 'libeay32', 'ssleay32'
     else
       ffi_lib [
-        'libssl.so.1.1.0', 'libssl.so.1.1',
-        'libssl.so.1.0.0', 'libssl.so.10',
+        'libssl.so.1.1.0', 'libssl.so.1.1', 'libssl.1.1',
+        'libssl.so.1.0.0', 'libssl.so.10', 'libssl1.0.0',
         'ssl'
       ]
     end
